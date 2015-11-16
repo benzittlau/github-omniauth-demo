@@ -14,6 +14,7 @@ The purpose here is to demonstrate a few ideas:
 ## Structure of this repo
 There are a number of branches that reflect progress through the problem:
 
+* `initial-rails-repo` - A 4.2.5 rails default installation before I start to add to it.
 * `add-some-dummy-pages` - Adds a few pages including a 'private' page that we can work with.
 * `adding-omniauth` - Adds the omniauth library and some basic controllers to manage the oauth flows.
 * `adding-user-model` - Adds a user model that we can use to record and use the data collected by omniauth.

@@ -4,8 +4,9 @@ Rails.application.routes.draw do
   get 'pages/private'
 
   get 'auth/developer', as: :developer_auth
+  get 'auth/github', as: :github_auth
 
-  post 'auth/:provider/callback', to: 'session#create'
+  match 'auth/:provider/callback', to: 'session#create', via: [:post, :get]
 
   get 'session/destroy', as: :logout
 

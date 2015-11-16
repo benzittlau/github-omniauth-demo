@@ -24,7 +24,8 @@ module OauthDemo
     config.active_record.raise_in_transactional_callbacks = true
 
     config.middleware.use OmniAuth::Builder do
-      provider :developer
+      provider :developer if Rails.env.development?
+      provider :github, '0ab55a6359c6f520af70', 'a2eea49a4563add52e52980e0a195f063cae246f'
     end
   end
 end

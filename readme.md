@@ -17,6 +17,6 @@ There are a number of branches that reflect progress through the problem:
 * `initial-rails-repo` - A 4.2.5 rails default installation before I start to add to it.
 * `add-some-dummy-pages` [(diff)](https://github.com/benzittlau/github-omniauth-demo/compare/initial-rails-repo...add-some-dummy-pages) - Adds a few pages including a 'private' page that we can work with.
 * `adding-omniauth` [(diff)](https://github.com/benzittlau/github-omniauth-demo/compare/add-some-dummy-pages...adding-omniauth) - Adds the omniauth library and some basic controllers to manage the oauth flows.
-* `adding-user-model` [(diff)](https://github.com/benzittlau/github-omniauth-demo/compare/adding-omniauth...add-user-model) - Adds a user model that we can use to record and use the data collected by omniauth.
-* `add-access-control` [(diff)](https://github.com/benzittlau/github-omniauth-demo/compare/add-user-model...add-access-control) - With a user model and session controller, use the session data to control access to our private page.
+* `adding-user-model` [(diff)](https://github.com/benzittlau/github-omniauth-demo/compare/adding-omniauth...adding-user-model) - Adds a user model that we can use to record and use the data collected by omniauth.
+* `add-access-control` [(diff)](https://github.com/benzittlau/github-omniauth-demo/compare/adding-user-model...add-access-control) - With a user model and session controller, use the session data to control access to our private page.
 * `switch-to-github-auth` [(diff)](https://github.com/benzittlau/github-omniauth-demo/compare/add-access-control...switch-to-github-auth) - Now that we have a functioning authentication and authorization system, move to GitHub auth through omniauth
